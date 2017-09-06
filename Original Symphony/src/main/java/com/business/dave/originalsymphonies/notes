@@ -1,0 +1,14 @@
+Still To Do:
+
+1) Once press the record button two times then finish the activity
+2) Application crashes when activate before youtube
+There's a bunch of scenarios
+1) is when press screen off
+2) go to sleep
+3) video plays till end
+
+Things to fix:
+1) Debug -- main thing is playing around with the YouTube controls and seeing if they cause errors
+(when you're checking you need to ask if player is playing then do this make sure it's in play mode)
+-- also need to double check the permissions
+2) Get the song positions to fit

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="100dp"
+        android:id="@+id/spacer"
+
+        />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_gravity="center_horizontal"
+        android:onClick="youtubePlay" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate Lyrics"
+        android:id="@+id/replace_button"
+        android:onClick="replaceLyric"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

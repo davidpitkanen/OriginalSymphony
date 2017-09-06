@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Original Symphonies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_make_song">MakeSongActivity</string>
+    <string name="title_activity_capture_audio">CaptureAudioActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_play_music">playMusicActivity</string>
+</resources>
